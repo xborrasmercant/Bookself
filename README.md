@@ -8,4 +8,4 @@ WINDOWS: `python3 -m venv venv`
 WINDOWS: `.\venv\Scripts\activate`
 
 3. Install the needed dependencies:
-`pip install fastapi uvicorn autopep8`
+`pip install fastapi uvicorn autopep8 jinja2`
