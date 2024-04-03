@@ -1,0 +1,11 @@
+docker run --name bookself-postgres -p 5432:5432 -e POSTGRES_PASSWORD=bookself -d postgres
+
+
+DROP TABLE IF EXISTS users;
+
+CREATE TABLE users(
+    username text NOT NULL PRIMARY KEY,
+    email text NOT NULL,
+    pwd text NOT NULL,
+    pfp text NULL
+);
